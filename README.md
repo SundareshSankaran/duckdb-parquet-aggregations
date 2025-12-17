@@ -3,6 +3,9 @@
 ## Description
 This custom step dynamically builds a DuckDB SQL aggregation query against Parquet files and pushes the query down to DuckDB via the SAS/ACCESS Interface to DuckDB. It lets users run one or more aggregations over Parquet data without manually writing DuckDB SQL, reducing data movement and taking advantage of DuckDB's columnar performance. This step explicitly pushes down the query to avoid making a copy which might happen in case of implicit reference.
 
+A detailed wiki of this page is available [here](https://deepwiki.com/SundareshSankaran/duckdb-parquet-aggregations).
+
+
 ## User Interface
 See the step's **About** tab in SAS Studio for contextual help. The Parameters tab prompts for the inputs required to build the aggregation SQL automatically.
 
