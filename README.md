@@ -10,6 +10,8 @@ Watch this [video](https://www.youtube.com/watch?v=sgV-4xgusKY) for a simple dem
 
 Read this [article](https://communities.sas.com/t5/SAS-Communities-Library/Performant-Aggregations-on-Parquet-using-DuckDB/ta-p/981117) to learn more.
 
+A detailed wiki of this page is available [here](https://deepwiki.com/SundareshSankaran/duckdb-parquet-aggregations).
+
 ### Parameters
 - **Parquet file path (file selector, required):** select a Parquet file on the SAS server filesystem.
 - **Aggregation functions (list, required):** choose one or more aggregation functions (e.g., AVG, SUM, COUNT, STDDEV, STDDEV_POP).
