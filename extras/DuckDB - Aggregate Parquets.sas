@@ -26,29 +26,29 @@
 * -------------------------------------------------------------------------------------------- */
 
 /* Input option: 'single' for a single parquet file, 'multiple' for all parquet files in a folder */
-%let input_option=single;
+/* %let input_option=single; */
 
 /*  Directory or prefix containing parquet files  */
-%let parquet_file_path=sasserver:/mnt/viya-share/data/parquet-test/ss-new/parquet-test/HMEQ_WITH_CUST.parquet;
+/* %let parquet_file_path=sasserver:/mnt/viya-share/data/parquet-test/ss-new/parquet-test/HMEQ_WITH_CUST.parquet; */
 
  
 
 /* Aggregation function list: define count then each function name macro */
-%let function_name_count=4;
-%let function_name_1=AVG;
-%let function_name_2=SUM;
-%let function_name_3=STDDEV;
-%let function_name_4=COUNT;
+/* %let function_name_count=4; */
+/* %let function_name_1=AVG; */
+/* %let function_name_2=SUM; */
+/* %let function_name_3=STDDEV; */
+/* %let function_name_4=COUNT; */
 
 /* Comma-separated list of columns to aggregate and group-by columns (space or comma separated OK)  */
-%let agg_columns=DELINQ DEBTINC;                   
-%let group_by_columns= ;                 
+/* %let agg_columns=DELINQ DEBTINC;                    */
+/* %let group_by_columns= ;                  */
 
 /* Where clause to filter parquet data before aggregation (optional) */
-%let where_clause=       BAD=1;
+/* %let where_clause=       BAD=1; */
 
 /*  Output table assigned to the Duck DB engine. Provide libname-qualified name if desired.  */
-%let output_table=dukonce.TABLE_NUM_AGGS_DD;
+/* %let output_table=dukonce.TABLE_NUM_AGGS_DD; */
 
 
 

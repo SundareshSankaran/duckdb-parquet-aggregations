@@ -114,14 +114,14 @@
 							"id": "agg_columns",
 							"type": "textfield",
 							"label": "List columns to aggregate (space separated):",
-							"placeholder": "DELINQ DEBTINC",
+							"placeholder": "example_col1 example_col2",
 							"required": true
 						},
 						{
 							"id": "group_by_columns",
 							"type": "textfield",
 							"label": "List Group-by columns (optional, space separated):",
-							"placeholder": "",
+							"placeholder": "example_groupby_col",
 							"required": false
 						},
 						{
@@ -241,8 +241,6 @@
 		"parquet_file_path": "",
 		"parquet_path": "",
 		"function_name": [],
-		"agg_columns": "example_col1 example_col2",
-		"group_by_columns": "example_groupby_col",
 		"output_table": {
 			"library": "",
 			"table": ""
